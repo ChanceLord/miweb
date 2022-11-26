@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: #06283D;
+}
+
+h2 {
+    color: black;  
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p {
+    font-family:'Lucida Sans' ;
+    color: black;
+      font-size: 18px;
+
+}
+
+
+.padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    background-color:#256D85 ;
+    height: 1400px;
+    margin:50px auto;
+}
+
+.columna {
+     
+     width: 500px;
+     height:23% ;
+     background-color: #DFF6FF;
+     border: 2px solid black;
+
+     margin: 30px;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 20px;    
+
+    /* manera facil de adaptar una imagen grande a la pagina */
+    width: 60%;
+     }
+
+     .lc{
+        width: 60%;
+     }
